@@ -656,7 +656,7 @@ ul.row {
 
 /*** FORM ***/
 /* Comment section
-  ============================= */
+    ============================= */
 
 .post-comments {
     width: 80%;
@@ -669,11 +669,27 @@ ul.row {
 }
 
 /* Basic form
-  ============================= */
+      ============================= */
 
 form {
     display: flex;
     flex-direction: column;
     padding: 1rem 0;
     margin: 0;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: none;
+    padding: 0 0 2rem;
+}
+
+label {
+    cursor: pointer;
+    display: block;
+    white-space: nowrap;
+    font-size: 1.4rem;
+    padding: 0 0 .5rem;
 }
